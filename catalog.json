@@ -21,25 +21,10 @@
     {"id":"prod-0dcbc7a2-015","name":"Pro Item 15","category":"home","price":494.4,"stock":137,"rating":2}
   ],
   "aggregations": {
-    "home": {
-      "count": 5,
-      "inventoryValue": 202367.85
-    },
-    "clothing": {
-      "count": 1,
-      "inventoryValue": 252.88 * 18
-    },
-    "sports": {
-      "count": 3,
-      "inventoryValue": 465.6*167 + 422.53*138 + 394.55*28
-    },
-    "books": {
-      "count": 3,
-      "inventoryValue": 200.58*11 + 254.42*107 + 456.7*66
-    },
-    "electronics": {
-      "count": 3,
-      "inventoryValue": 456.17*1 + 239.57*114 + 168.98*194
-    }
+    "home": {"count": 5, "inventoryValue": 202367.85},
+    "clothing": {"count": 1, "inventoryValue": 4551.84},
+    "sports": {"count": 3, "inventoryValue": 142852.21},
+    "books": {"count": 3, "inventoryValue": 43633.84},
+    "electronics": {"count": 3, "inventoryValue": 60554.27}
   }
 }
